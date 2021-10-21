@@ -1,0 +1,26 @@
+
+// Showcase
+.linear-gradient-dark {
+    background: linear-gradient(90deg, rgb(33, 37, 41) 0%, rgb(33, 37, 41) 50%, rgba(33, 37, 41, 0.4) 70%, transparent 100%);
+    z-index: 10;
+    height: 80vh;
+}
+.showcase-image {
+    height: calc(80vh + 56px);
+    min-width: 50vw;
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.showcase-form {
+    width: 40%;
+}
+.showcase-location-container {
+    .showcase-location-input {
+        border-radius: 100px 0 0 100px;
+    }
+    .showcase-location-button {
+        border-radius: 0 100px 100px 0;
+    }
+}
