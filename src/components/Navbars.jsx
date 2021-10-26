@@ -7,7 +7,7 @@ import { GoThreeBars } from 'react-icons/go';
 
 export default function Navbars() {
   return (
-    <Navbar className="bg-dark text-light">
+    <Navbar className="bg-dark text-light position-fixed w-100 top-0">
       <Container className="d-flex justify-content-between">
         <NavbarBrand className="text-light">
           GoPub.io

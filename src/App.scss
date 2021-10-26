@@ -1,4 +1,7 @@
-
+// App
+.App {
+    padding-top: 56px;
+}
 // Showcase
 .linear-gradient-dark {
     background: linear-gradient(90deg, rgb(33, 37, 41) 0%, rgb(33, 37, 41) 50%, rgba(33, 37, 41, 0.4) 70%, transparent 100%);
@@ -23,4 +26,13 @@
     .showcase-location-button {
         border-radius: 0 100px 100px 0;
     }
+}
+//venueList
+.venue-list-image-container {
+    overflow: hidden;
+    min-height: 350px;
+    max-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

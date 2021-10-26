@@ -18,6 +18,7 @@ module.exports = (env) => {
     },
     devServer: {
       static: './',
+      historyApiFallback: true,
     },
     module: {
       rules: [
